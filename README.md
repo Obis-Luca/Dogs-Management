@@ -1,5 +1,5 @@
-<h1>Employeemanager</h1>
-Employeemanager is a full stack CRUD application designed to manage users and dogs. It is built using React for the frontend, Node.js with Express for the backend, and MySQL for the database. The MySQL database is deployed on Railway.
+<h1>Employee Manager</h1>
+Employee manager is a full stack CRUD application designed to manage users and dogs. It is built using React for the frontend, Node.js with Express for the backend, and MySQL for the database. The MySQL database is deployed on Railway.
 <h3>Features</h3>
 <ul>
   <li><b>User Management: Admins can perform CRUD operations on any user. Managers can perform CRUD operations on users and dogs, but not on other admins or managers. Regular users can perform CRUD operations within their own scope.</b></li>
