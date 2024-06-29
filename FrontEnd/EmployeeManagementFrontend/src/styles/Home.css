@@ -1,0 +1,27 @@
+.home-container {
+    margin: 5rem;
+  }
+  
+  .pagination {
+    margin-top: 1rem;
+  }
+  
+  .pagination li {
+    display: inline-block;
+    margin-right: 5px;
+  }
+  
+  .pagination li a {
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .pagination li.active a {
+    color: #000;
+    pointer-events: none;
+  }
+  
+  .pagination li.active {
+    font-weight: bold;
+  }
+  

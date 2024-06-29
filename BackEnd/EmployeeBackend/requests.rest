@@ -1,0 +1,51 @@
+GET http://localhost:5000/api 
+Authorization: Bearer 
+
+###
+
+POST http://localhost:5000/auth
+Content-Type: application/json
+
+{
+    "name": "bAo",
+    "age": 1,   
+    "salary": 1,
+    "password": "1"
+}
+
+###
+
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+    "name": "Luca",
+    "password": "parola123"
+}
+
+###
+
+GET http://mppbackend-production-59db.up.railway.app/api 
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiYyIsInBhc3N3b3JkIjoiMSIsImlhdCI6MTcxNjI5MzQ4MSwiZXhwIjoxNzE2Mjk3MDgxfQ.hMzeBFMzURDTxa17sGMnG3H-T6SSjzV-ZUyYTNlRxX8
+
+###
+
+POST https://mppbackend-production-59db.up.railway.app/login
+Content-Type: application/json
+
+{
+    "name": "c",
+    "password": "1"
+}
+
+###
+POST http://localhost:5000/token
+Content-Type: application/json
+
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiWmV1IiwicGFzc3dvcmQiOiJwYXJvbGExMjMiLCJpYXQiOjE3MTUyODgwNTV9.sbxAh9gFxxuoiEPm-fYh5aFWL-ei1Yr-UqdeU_k4a_s"
+}
+
+###
+DELETE http://localhost:5000/logout
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiVXMiLCJwYXNzd29yZCI6IjEiLCJyb2xlIjoidXNlciIsImlhdCI6MTcxNjQ2NTI5MSwiZXhwIjoxNzE2NDY4ODkxfQ.IMlA7SoA4z5eeACt-MrPWS-pM_n6yOwaAg1B7nwqfkc
