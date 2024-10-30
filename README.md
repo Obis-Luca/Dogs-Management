@@ -1,4 +1,4 @@
-<h1>Employee Manager</h1>
+<h1>Dogs Management</h1>
 Employee manager is a full stack CRUD application designed to manage users and dogs. It is built using React for the frontend, Node.js with Express for the backend, and MySQL for the database. The MySQL database is deployed on Railway.
 <h3>Features</h3>
 <ul>
